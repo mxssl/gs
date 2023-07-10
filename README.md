@@ -1,6 +1,6 @@
 # gs
 
 ```bash
-docker build --tag mxssl/gs:latest .
+docker buildx build --platform="linux/amd64" --tag="mxssl/gs:latest" .
 docker push mxssl/gs:latest
 ```
